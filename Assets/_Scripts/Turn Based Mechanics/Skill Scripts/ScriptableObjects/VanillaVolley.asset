@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillID: vanilla_volley
   skillName: Vanilla Volley
-  staminaCost: 0
+  staminaCost: 30
   immediateActions:
   - rid: 9144232903597883399
   targetType: 0
@@ -25,4 +25,4 @@ MonoBehaviour:
     - rid: 9144232903597883399
       type: {class: DamageSkillAction, ns: , asm: Assembly-CSharp}
       data:
-        damageAmount: 7
+        damageAmount: 8

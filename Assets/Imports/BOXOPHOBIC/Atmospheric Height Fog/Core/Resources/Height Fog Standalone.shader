@@ -324,7 +324,7 @@ Shader "BOXOPHOBIC/Atmospherics/Height Fog Standalone"
 			#endif
 			CBUFFER_END
 
-			uniform float4 _CameraDepthTexture_TexelSize;
+			//uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			float4 mod289( float4 x )
@@ -778,7 +778,7 @@ Shader "BOXOPHOBIC/Atmospherics/Height Fog Standalone"
 			#endif
 			CBUFFER_END
 
-			uniform float4 _CameraDepthTexture_TexelSize;
+			//uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			float4 mod289( float4 x )
@@ -1201,7 +1201,7 @@ Shader "BOXOPHOBIC/Atmospherics/Height Fog Standalone"
 			#endif
 			CBUFFER_END
 
-			uniform float4 _CameraDepthTexture_TexelSize;
+			//uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			float4 mod289( float4 x )
@@ -1629,7 +1629,7 @@ Shader "BOXOPHOBIC/Atmospherics/Height Fog Standalone"
 			#endif
 			CBUFFER_END
 
-			uniform float4 _CameraDepthTexture_TexelSize;
+			//uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			float4 mod289( float4 x )
@@ -2061,7 +2061,7 @@ Shader "BOXOPHOBIC/Atmospherics/Height Fog Standalone"
 				float _TessMaxDisp;
 			#endif
 			CBUFFER_END
-			uniform float4 _CameraDepthTexture_TexelSize;
+			//uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			float4 mod289( float4 x )

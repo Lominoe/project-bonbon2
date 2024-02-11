@@ -110,7 +110,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 441420bb28a5ea24cb0a8761e78f6457, type: 2}
       Values:
       - animationTrigger: _Attack
-        animationDuration: 2
+        animationDuration: 1
         delaySkills:
         - rid: 9144232903597883402
         - rid: 9144232903597883403
@@ -138,7 +138,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: c071a1a57102f3d4c968ae3ec1807123, type: 2}
       Values:
       - animationTrigger: _Attack
-        animationDuration: 4
+        animationDuration: 2
         delaySkills:
         - rid: 9144232903597883405
         - rid: 9144232903597883406
@@ -301,7 +301,7 @@ MonoBehaviour:
       type: {class: DelaySkillDamageAnimation, ns: , asm: Assembly-CSharp}
       data:
         triggers:
-        - triggerTime: 1.5
+        - triggerTime: 1
           percentMultiplier: 100
     - rid: 9144232903597883403
       type: {class: DelaySkillEffectAnimation, ns: , asm: Assembly-CSharp}
@@ -316,11 +316,11 @@ MonoBehaviour:
       data:
         triggers:
         - triggerTime: 1
-          percentMultiplier: 25
+          percentMultiplier: 33
+        - triggerTime: 1.25
+          percentMultiplier: 33
         - triggerTime: 1.5
-          percentMultiplier: 25
-        - triggerTime: 2
-          percentMultiplier: 50
+          percentMultiplier: 34
     - rid: 9144232903597883406
       type: {class: DelaySkillEffectAnimation, ns: , asm: Assembly-CSharp}
       data:

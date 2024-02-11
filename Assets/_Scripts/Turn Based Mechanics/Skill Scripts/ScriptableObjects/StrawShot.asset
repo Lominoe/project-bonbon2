@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillID: straw_shot
   skillName: Straw Shot
-  staminaCost: 0
+  staminaCost: 15
   immediateActions:
   - rid: 9144232903597883400
   targetType: 0

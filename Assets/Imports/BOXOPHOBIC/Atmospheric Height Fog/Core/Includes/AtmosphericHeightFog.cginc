@@ -16,6 +16,8 @@
 #ifndef ATMOSPHERIC_HEIGHT_FOG_INCLUDED
 #define ATMOSPHERIC_HEIGHT_FOG_INCLUDED
 
+half AHF_Enabled;
+
 half4 AHF_FogColorStart;
 half4 AHF_FogColorEnd;
 half AHF_FogDistanceStart;
@@ -151,7 +153,7 @@ float4 GetAtmosphericHeightFog(float3 positionWS)
 	float3 Color = (staticSwitch456_g1032).xyz;
 	float Alpha = (staticSwitch456_g1032).w;
 
-	finalColor = float4(Color, Alpha);
+	finalColor = float4(Color, Alpha * AHF_Enabled);
 	return finalColor;
 }
 

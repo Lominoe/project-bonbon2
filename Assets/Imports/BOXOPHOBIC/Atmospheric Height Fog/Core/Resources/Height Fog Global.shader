@@ -269,7 +269,7 @@ Shader "Hidden/BOXOPHOBIC/Atmospherics/Height Fog Global"
 
 			half4 AHF_FogColorStart;
 			half4 AHF_FogColorEnd;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			//uniform float4 _CameraDepthTexture_TexelSize;
 			half AHF_FogDistanceStart;
 			half AHF_FogDistanceEnd;
 			half AHF_FogDistanceFalloff;

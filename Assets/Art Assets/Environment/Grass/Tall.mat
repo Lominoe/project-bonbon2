@@ -47,7 +47,7 @@ Material:
     - _Radius: 0
     - _RandomHeight: 0
     - _Strength: 0
-    - _WindSpeed: 16.94
+    - _WindSpeed: 0
     m_Colors:
-    - _TopColor: {r: 0.13538823, g: 0.41099998, b: 0.1741613, a: 1}
+    - _TopColor: {r: 0.25013348, g: 0.6886792, b: 0.30679953, a: 1}
   m_BuildTextureStacks: []

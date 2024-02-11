@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tutorial Jello Jumper
   m_EditorClassIdentifier: 
   displayName: Blue Jello Jumper
-  icon: {fileID: 21300000, guid: 7895477d0c1f4784a839dcb3f034d4de, type: 3}
+  icon: {fileID: 21300000, guid: 9eb6ddb2d5ca81d488e78a30ca125dcd, type: 3}
   id: tutorial_blue_jello
   maxHitpoints: 300
   basePotency: 0

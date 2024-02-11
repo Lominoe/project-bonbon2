@@ -15,9 +15,9 @@ MonoBehaviour:
   displayName: Red Escaroll
   icon: {fileID: 21300000, guid: c66dfcdc66284a34c9e3a039b2823dc6, type: 3}
   id: escaroll_red
-  maxHitpoints: 13
+  maxHitpoints: 16
   basePotency: 0
-  baseDefense: 0
+  baseDefense: 3
   baseSpeed: 6
   maxStamina: 100
   staminaRegenRate: 20

@@ -822,7 +822,9 @@ MonoBehaviour:
   levelIndeces: 0100000005000000
   mainMusicSource: {fileID: 7077939051141666318}
   sfxSource: {fileID: 4858433494299155957}
-  musicSounds: []
+  musicSounds:
+  - name: Lofi
+    clip: {fileID: 8300000, guid: c1c2f1e6310ee5040a66316e4424bec6, type: 3}
   sfxSounds: []
 --- !u!1 &8030299736913546768
 GameObject:

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillID: straw_cannon
   skillName: Straw Cannon
-  staminaCost: 0
+  staminaCost: 25
   immediateActions:
   - rid: 1640337368647991303
   targetType: 0

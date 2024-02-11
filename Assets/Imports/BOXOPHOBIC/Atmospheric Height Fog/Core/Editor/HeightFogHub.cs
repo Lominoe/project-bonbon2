@@ -5,6 +5,7 @@ using UnityEditor;
 using Boxophobic.StyledGUI;
 using Boxophobic.Utils;
 using System.IO;
+using UnityEngine.Rendering;
 
 namespace AtmosphericHeightFog
 {
@@ -330,18 +331,60 @@ namespace AtmosphericHeightFog
 
         void GetPipeline()
         {
-            for (int i = 0; i < pipelineOptions.Length; i++)
+            var pipeline = SettingsUtils.LoadSettingsData(pipelinePath, "");
+            var pipelineValid = false;
+
+            if (pipeline != "")
             {
-                if (pipelineOptions[i] == SettingsUtils.LoadSettingsData(pipelinePath, ""))
+                for (int i = 0; i < pipelineOptions.Length; i++)
                 {
-                    pipelineIndex = i;
-                    pipelineCurrent = pipelineOptions[i];
+                    if (pipelineOptions[i] == pipeline)
+                    {
+                        pipelineIndex = i;
+                        pipelineValid = true;
+                    }
                 }
             }
 
-            pipelineCurrent = pipelineCurrent.Replace("Standard", "Standard Render Pipeline");
-            pipelineCurrent = pipelineCurrent.Replace("Universal", "Universal Render Pipeline");
-            pipelineCurrent = pipelineCurrent.Replace("High Definition", "High Definition Render Pipeline");
+            // Get recommended pipeline
+            if (!pipelineValid)
+            {
+                if (GraphicsSettings.defaultRenderPipeline != null)
+                {
+                    if (GraphicsSettings.defaultRenderPipeline.GetType().ToString().Contains("Universal"))
+                    {
+                        pipeline = "Universal";
+                    }
+
+                    if (GraphicsSettings.defaultRenderPipeline.GetType().ToString().Contains("HD"))
+                    {
+                        pipeline = "High Definition";
+                    }
+                }
+
+                for (int i = 0; i < pipelineOptions.Length; i++)
+                {
+                    if (pipelineOptions[i] == pipeline)
+                    {
+                        pipelineIndex = i;
+                    }
+                }
+            }
+
+            if (pipelineOptions[pipelineIndex].Contains("Standard"))
+            {
+                pipelineCurrent = "Standard Render Pipeline";
+            }
+
+            if (pipelineOptions[pipelineIndex].Contains("Universal"))
+            {
+                pipelineCurrent = "Universal Render Pipeline";
+            }
+
+            if (pipelineOptions[pipelineIndex].Contains("High"))
+            {
+                pipelineCurrent = "High Definition Render Pipeline";
+            }
         }
 
         void InstallAsset()

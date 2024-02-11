@@ -173,7 +173,7 @@ Material:
     - _TessellationUniform: 3.6
     - _TranslucentGain: 0.5
     - _WindFrequency: 0.01
-    - _WindSpeed: 20
+    - _WindSpeed: 0
     - _WindStrength: 0.25
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -184,7 +184,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TipColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TopColor: {r: 0.13538823, g: 0.41099998, b: 0.1741613, a: 1}
-    - _WindFrequency: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _TopColor: {r: 0.1967782, g: 0.6226415, b: 0.2521164, a: 1}
+    - _WindFrequency: {r: 0.01, g: 0.05, b: 0, a: 0}
     - _WindVelocity: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

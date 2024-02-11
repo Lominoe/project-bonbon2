@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   skipIterations:
     m_OverrideState: 0
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.57
+    m_Value: 0.64
   intensity:
     m_OverrideState: 1
-    m_Value: 3.04
+    m_Value: 0.8
   scatter:
     m_OverrideState: 1
-    m_Value: 0.934
+    m_Value: 0.709
   clamp:
     m_OverrideState: 0
     m_Value: 65398.72
@@ -87,7 +87,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.769
+    m_Value: 0.301
   smoothness:
     m_OverrideState: 1
     m_Value: 0.346
@@ -150,10 +150,10 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.11
+    m_Value: -0.29
   contrast:
     m_OverrideState: 1
-    m_Value: 20.1
+    m_Value: 63
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -203,7 +203,7 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 10
   tint:
     m_OverrideState: 1
     m_Value: 55
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   mode:
     m_OverrideState: 1
     m_Value: 2
@@ -341,13 +341,13 @@ MonoBehaviour:
     m_Value: 0
   focusDistance:
     m_OverrideState: 1
-    m_Value: 3.54
+    m_Value: 3.81
   aperture:
     m_OverrideState: 1
     m_Value: 1
   focalLength:
     m_OverrideState: 1
-    m_Value: 78
+    m_Value: 34
   bladeCount:
     m_OverrideState: 1
     m_Value: 5

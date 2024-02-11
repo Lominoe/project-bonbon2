@@ -15,9 +15,9 @@ MonoBehaviour:
   displayName: Brown Escaroll
   icon: {fileID: 21300000, guid: a69d7728907aab545a921cbbe111eb31, type: 3}
   id: escaroll_brown
-  maxHitpoints: 14
+  maxHitpoints: 17
   basePotency: 0
-  baseDefense: 0
+  baseDefense: 1
   baseSpeed: 3
   maxStamina: 100
   staminaRegenRate: 20
